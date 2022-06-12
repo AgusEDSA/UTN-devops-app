@@ -15,7 +15,8 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        $this->assertTrue(true);
+        $this->expectOutputString('Grupo 7!');
+        print 'Grupo 7!';
     }
 
     /**
